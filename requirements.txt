@@ -1,0 +1,20 @@
+# Web Frameworks
+fastapi[standard]>=0.110.0
+streamlit>=1.32.0
+
+# Database
+motor>=3.3.2
+
+# Machine Learning & Vision
+ultralytics>=8.1.0  # YOLOv11 is included in the ultralytics package
+opencv-python-headless>=4.9.0
+supervision>=0.19.0
+scikit-learn>=1.4.0 # For the Random Forest Classifier
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Other utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+python-multipart>=0.0.9 # For FastAPI file uploads
+roboflow>=1.1.25 # To download the dataset
